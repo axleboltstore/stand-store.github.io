@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+header>div#img {
+    position: relative;
+}
+
+header>div#img>img {
+    width: 100%;
+    box-shadow: 1px 1px 10px #000;
+}
+
+header>div#img>span {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-family: 'Bangers', cursive;
+    font-size: 3.5vw;
+    color: #FFF;
+}
+
+menu {
+    width: 100%;
+}
+
+menu>div#menu {
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+    box-shadow: 1px 1px 10px #000;
+}
+
+menu>div#menu>img {
+    width: 9.5%;
+    margin: 1%;
+    box-shadow: 1px 1px 10px #000;
+    border-radius: 3px;
+    transform: skew(-10deg);
+    transition: 0.2s linear;
+}
+
+menu>div#menu>img:hover {
+    transform: skew(0deg);
+    box-shadow: none;
+}
+
+main {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+main>div#box {
+    background-image: url(../img/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
+    margin-left: 10%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px 1px 10px #000;
+    float: left;
+    margin-bottom: 2%;
+}
+
+main>div#box>div#title {
+    padding: 2%;
+    text-align: center;
+}
+
+main>div#box>div#title>span {
+    font-family: 'Bangers', cursive;
+    font-size: 3vw;
+    color: #FFF;
+}
+
+main>div#box>div#prod {
+    position: relative;
+    margin-top: 3%;
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+
+main>div#box>div#prod>img {
+    margin: 2%;
+    margin-bottom: 15%;
+    box-shadow: 1px 1px 10px #000;
+    padding-top: 25%;
+    background-color: rgba(33, 33, 33, 0.9);
+    border-radius: 5px;
+    width: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+main>div#box>div#prod>span {
+    position: absolute;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    color: rgb(250, 246, 0);
+}
+
+main>div#box>div#prod>span#s1 {
+    top: 15%;
+    left: 43%;
+}
+
+main>div#box>div#prod>span#s2 {
+    top: 15%;
+    left: 42.75%;
+}
+
+main>div#box>div#prod>span#s3 {
+    top: 15%;
+    left: 41.5%;
+}
+
+main>div#box>div#prod>span#s4 {
+    top: 15%;
+    left: 41.5%;
+}
+
+main>div#box>div#prod>span#s5 {
+    top: 15%;
+    left: 40.5%;
+}
+
+main>div#box>div#prod>span#s6 {
+    top: 15%;
+    left: 40.5%;
+}
+
+main>div#box>div#prod>span#s7 {
+    top: 7%;
+    left: 40.5%;
+}
+
+main>div#box>div#prod>span#s8 {
+    top: 7%;
+    left: 42.5%;
+}
+
+main>div#box>div#prod>span#s9 {
+    top: 7%;
+    left: 41%;
+}
+
+main>div#box>div#prod>span#s10 {
+    top: 7%;
+    left: 42%;
+}
+
+main>div#box>div#prod>span#s11 {
+    top: 7%;
+    left: 42%;
+}
+
+main>div#box>div#prod>span#s12 {
+    top: 7%;
+    left: 41.5%;
+}
+
+main>div#box>div#prod>span#s13 {
+    top: 7%;
+    left: 42%;
+}
+
+main>div#box>div#prod>span#s14 {
+    top: 7%;
+    left: 42%;
+}
+
+main>div#box>div#prod>span#s15 {
+    top: 7%;
+    left: 40.5%;
+}
+
+main>div#box>div#prod>span#s16 {
+    top: 7%;
+    left: 41%;
+}
+
+main>div#box>div#prod>span#s17 {
+    top: 7%;
+    left: 41%;
+}
+
+main>div#box>div#prod>span#s18 {
+    top: 7%;
+    left: 39%;
+}
+
+main>div#box>div#prod>span#s19 {
+    top: 7%;
+    left: 40%;
+}
+
+main>div#box>div#prod>span#s20 {
+    top: 7%;
+    left: 43.5%;
+}
+
+main>div#box>div#prod>span#s21 {
+    top: 7%;
+    left: 43%;
+}
+
+main>div#box>div#prod>span#s22 {
+    top: 7%;
+    left: 41%;
+}
+
+main>div#box>div#prod>span#s23 {
+    top: 7%;
+    left: 39.5%;
+}
+
+main>div#box>div#prod>span#s24 {
+    top: 7%;
+    left: 41%;
+}
+
+main>div#box>div#prod>span#s25 {
+    top: 7%;
+    left: 42%;
+}
+
+main>div#box>div#prod>span#s26 {
+    top: 7%;
+    left: 42%;
+}
+
+main>div#box>div#prod>span#s27 {
+    top: 7%;
+    left: 36%;
+}
+
+main>div#box>div#info {
+    position: relative;
+    margin-top: 3%;
+    width: 50%;
+    float: right;
+}
+
+main>div#box>div#info>div#inf {
+    margin: 2%;
+    margin-bottom: 15%;
+    box-shadow: 1px 1px 10px #000;
+    padding: 5%;
+    text-align: center;
+    background-color: rgba(33, 33, 33, 0.9);
+    border-radius: 5px;
+    width: 80%;
+}
+
+main>div#box>div#info>div#inf>span#w1 {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1.75vw;
+    color: rgb(200, 255, 0);
+}
+
+main>div#box>div#info>div#inf>span {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1.5vw;
+    color: #FFF;
+}
+
+main>div#box2 {
+    background-image: url(../img/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
+    margin-left: 10%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 10px #000;
+    margin-bottom: 100%;
+    float: left;
+}
+
+main>div#box2>div#title {
+    padding: 2%;
+    text-align: center;
+}
+
+main>div#box2>div#title>span {
+    font-family: 'Bangers', cursive;
+    font-size: 3vw;
+    color: #FFF;
+}
+
+main>div#box2>div#prod {
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+main>div#box2>div#prod>input {
+    width: 40%;
+    padding: 1.5%;
+    background-color: rgba(33, 33, 33, 0.9);
+    border: none;
+    box-shadow: 1px 1px 10px #000;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1.5vw;
+    color: #FFF;
+    transition: 0.2s linear;
+    margin-top: 2%;
+    border-radius: 3px;
+}
+
+main>div#box2>div#prod>input:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #343434;
+}
+
+main>div#box2>div#prod>input:focus {
+    background-color: #FFF;
+    color: #000;
+}
+
+main>div#box2>div#prod>button {
+    width: 20%;
+    padding: 1.5%;
+    background-color: rgba(33, 33, 33, 0.9);
+    border: none;
+    box-shadow: 1px 1px 10px #000;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1.5vw;
+    color: #FFF;
+    transition: 0.2s linear;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    border-radius: 2px;
+}
+
+main>div#box2>div#prod>button:hover {
+    background-color: rgba(255, 255, 255);
+    color: #000;
+}
+
+footer {
+    width: 100%;
+    margin-top: 5%;
+    float: left;
+}
+
+footer>div#img {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    box-shadow: 1px 1px 10px #000;
+}
+
+footer>div#img>img {
+    width: 100%;
+    bottom: 0;
+}
+
+footer>div#img>span {
+    position: absolute;
+    font-family: 'Bangers', cursive;
+    font-size: 2vw;
+    color: #FFF;
+    top: 45%;
+    left: 37%;
+}

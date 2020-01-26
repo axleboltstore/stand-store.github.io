@@ -1,0 +1,791 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+header>div#img {
+    position: relative;
+}
+
+header>div#img>img {
+    width: 100%;
+    box-shadow: 1px 1px 10px #000;
+}
+
+header>div#img>span {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-family: 'Bangers', cursive;
+    font-size: 3.5vw;
+    color: #FFF;
+}
+
+menu {
+    width: 100%;
+}
+
+menu>div#menu {
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+    box-shadow: 1px 1px 10px #000;
+}
+
+menu>div#menu>img {
+    width: 9.5%;
+    margin: 1%;
+    box-shadow: 1px 1px 10px #000;
+    border-radius: 3px;
+    transform: skew(-10deg);
+    transition: 0.2s linear;
+}
+
+menu>div#menu>img:hover {
+    transform: skew(0deg);
+    box-shadow: none;
+}
+
+main {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+main>div#box {
+    background-image: url(../img/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
+    margin-left: 10%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+main>div#box>div#title {
+    padding: 2%;
+    text-align: center;
+}
+
+main>div#box>div#title>span {
+    font-family: 'Bangers', cursive;
+    font-size: 3vw;
+    color: #FFF;
+}
+
+main>div#box>div#prod {
+    position: relative;
+    margin-top: 3%;
+    text-align: center;
+}
+
+main>div#box>div#prod>img {
+    margin: 2%;
+    margin-bottom: 15%;
+    box-shadow: 1px 1px 10px #000;
+    padding-top: 15%;
+    background-color: rgba(33, 33, 33, 0.9);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 14%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+main>div#box>div#prod>span {
+    position: absolute;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: rgb(250, 246, 0);
+}
+
+main>div#box>div#prod>span#s1 {
+    top: 7.5%;
+    left: 17.5%;
+}
+
+main>div#box>div#prod>span#s2 {
+    top: 7.5%;
+    left: 46%;
+}
+
+main>div#box>div#prod>span#s3 {
+    top: 7.5%;
+    left: 74%;
+}
+
+main>div#box>div#prod>span#s4 {
+    top: 58.5%;
+    left: 17%;
+}
+
+main>div#box>div#prod>span#s5 {
+    top: 58.5%;
+    left: 44%;
+}
+
+main>div#box>div#prod>span#s6 {
+    top: 58.5%;
+    left: 73%;
+}
+
+main>div#box>div#prod>button {
+    width: 22%;
+    padding: 1%;
+    background-color: #FFF;
+    color: #000;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2vw;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #000;
+    position: absolute;
+    transition: 0.2s linear;
+}
+
+main>div#box>div#prod>button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    box-shadow: none;
+}
+
+main>div#box>div#prod>button#b1 {
+    left: 10.65%;
+    top: 31%;
+}
+
+main>div#box>div#prod>button#b2 {
+    left: 39%;
+    top: 31%;
+}
+
+main>div#box>div#prod>button#b3 {
+    left: 67.3%;
+    top: 31%;
+}
+
+main>div#box>div#prod>button#b4 {
+    left: 10.65%;
+    top: 81%;
+}
+
+main>div#box>div#prod>button#b5 {
+    left: 39%;
+    top: 81%;
+}
+
+main>div#box>div#prod>button#b6 {
+    left: 67.25%;
+    top: 81%;
+}
+
+
+main>div#box2 {
+    background-image: url(../img/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+    box-shadow: 1px 1px 10px #000;
+}
+
+main>div#box2>div#title {
+    padding: 2%;
+    text-align: center;
+}
+
+main>div#box2>div#title>span {
+    font-family: 'Bangers', cursive;
+    font-size: 3vw;
+    color: #FFF;
+}
+
+main>div#box2>div#prod {
+    position: relative;
+    margin-top: 3%;
+    text-align: center;
+}
+
+main>div#box2>div#prod>img {
+    margin: 1.5%;
+    margin-bottom: 15%;
+    box-shadow: 1px 1px 10px #000;
+    padding-top: 15%;
+    background-color: rgba(33, 33, 33, 0.9);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 7%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 5%;
+}
+
+main>div#box2>div#prod>span {
+    position: absolute;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: rgb(250, 246, 0);
+}
+
+main>div#box2>div#prod>span#s1 {
+    top: 11.5%;
+    left: 12%;
+}
+
+main>div#box2>div#prod>span#s2 {
+    top: 11.5%;
+    left: 35.5%;
+}
+
+main>div#box2>div#prod>span#s3 {
+    top: 11.5%;
+    left: 56.5%;
+}
+
+main>div#box2>div#prod>span#s4 {
+    top: 11.5%;
+    left: 79.5%;
+}
+
+main>div#box2>div#prod>button {
+    width: 17%;
+    padding: 1%;
+    background-color: #FFF;
+    color: #000;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2vw;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px #000;
+    position: absolute;
+    transition: 0.2s linear;
+}
+
+main>div#box2>div#prod>button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    box-shadow: none;
+}
+
+main>div#box2>div#prod>button#b1 {
+    left: 8%;
+    top: 70%;
+}
+
+main>div#box2>div#prod>button#b2 {
+    left: 30.35%;
+    top: 70%;
+}
+
+main>div#box2>div#prod>button#b3 {
+    left: 52.6%;
+    top: 70%;
+}
+
+main>div#box2>div#prod>button#b4 {
+    left: 75%;
+    top: 70%;
+}
+
+
+main>div#box3 {
+    background-image: url(../img/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+    box-shadow: 1px 1px 10px #000;
+}
+
+main>div#box3>div#title {
+    padding: 2%;
+    text-align: center;
+}
+
+main>div#box3>div#title>span {
+    font-family: 'Bangers', cursive;
+    font-size: 3vw;
+    color: #FFF;
+}
+
+main>div#box3>div#prod {
+    position: relative;
+    margin-top: 3%;
+    text-align: center;
+}
+
+main>div#box3>div#prod>img {
+    margin: 1.5%;
+    margin-bottom: 15%;
+    box-shadow: 1px 1px 10px #000;
+    padding-top: 15%;
+    background-color: rgba(33, 33, 33, 0.9);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 7%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 5%;
+}
+
+main>div#box3>div#prod>span {
+    position: absolute;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: rgb(250, 246, 0);
+}
+
+main>div#box3>div#prod>span#s1 {
+    top: 11.5%;
+    left: 12.5%;
+}
+
+main>div#box3>div#prod>span#s2 {
+    top: 11.5%;
+    left: 34.5%;
+}
+
+main>div#box3>div#prod>span#s3 {
+    top: 11.5%;
+    left: 56.5%;
+}
+
+main>div#box3>div#prod>span#s4 {
+    top: 11.5%;
+    left: 79.5%;
+}
+
+main>div#box3>div#prod>button {
+    width: 17%;
+    padding: 1%;
+    background-color: #FFF;
+    color: #000;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2vw;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px #000;
+    position: absolute;
+    transition: 0.2s linear;
+}
+
+main>div#box3>div#prod>button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    box-shadow: none;
+}
+
+main>div#box3>div#prod>button#b1 {
+    left: 8%;
+    top: 70%;
+}
+
+main>div#box3>div#prod>button#b2 {
+    left: 30.35%;
+    top: 70%;
+}
+
+main>div#box3>div#prod>button#b3 {
+    left: 52.6%;
+    top: 70%;
+}
+
+main>div#box3>div#prod>button#b4 {
+    left: 75%;
+    top: 70%;
+}
+
+
+main>div#box4 {
+    background-image: url(../img/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+    box-shadow: 1px 1px 10px #000;
+}
+
+main>div#box4>div#title {
+    padding: 2%;
+    text-align: center;
+}
+
+main>div#box4>div#title>span {
+    font-family: 'Bangers', cursive;
+    font-size: 3vw;
+    color: #FFF;
+}
+
+main>div#box4>div#prod {
+    position: relative;
+    margin-top: 3%;
+    text-align: center;
+}
+
+main>div#box4>div#prod>img {
+    margin: 1.5%;
+    margin-bottom: 15%;
+    box-shadow: 1px 1px 10px #000;
+    padding-top: 15%;
+    background-color: rgba(33, 33, 33, 0.9);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 7%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 5%;
+}
+
+main>div#box4>div#prod>span {
+    position: absolute;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: rgb(250, 246, 0);
+}
+
+main>div#box4>div#prod>span#s1 {
+    top: 11.5%;
+    left: 12%;
+}
+
+main>div#box4>div#prod>span#s2 {
+    top: 11.5%;
+    left: 34.5%;
+}
+
+main>div#box4>div#prod>span#s3 {
+    top: 11.5%;
+    left: 56.5%;
+}
+
+main>div#box4>div#prod>span#s4 {
+    top: 11.5%;
+    left: 78.5%;
+}
+
+main>div#box4>div#prod>button {
+    width: 17%;
+    padding: 1%;
+    background-color: #FFF;
+    color: #000;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2vw;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px #000;
+    position: absolute;
+    transition: 0.2s linear;
+}
+
+main>div#box4>div#prod>button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    box-shadow: none;
+}
+
+main>div#box4>div#prod>button#b1 {
+    left: 8%;
+    top: 70%;
+}
+
+main>div#box4>div#prod>button#b2 {
+    left: 30.35%;
+    top: 70%;
+}
+
+main>div#box4>div#prod>button#b3 {
+    left: 52.6%;
+    top: 70%;
+}
+
+main>div#box4>div#prod>button#b4 {
+    left: 75%;
+    top: 70%;
+}
+
+
+main>div#box5 {
+    background-image: url(../img/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+    box-shadow: 1px 1px 10px #000;
+}
+
+main>div#box5>div#title {
+    padding: 2%;
+    text-align: center;
+}
+
+main>div#box5>div#title>span {
+    font-family: 'Bangers', cursive;
+    font-size: 3vw;
+    color: #FFF;
+}
+
+main>div#box5>div#prod {
+    position: relative;
+    margin-top: 3%;
+    text-align: center;
+}
+
+main>div#box5>div#prod>img {
+    margin: 1.5%;
+    margin-bottom: 15%;
+    box-shadow: 1px 1px 10px #000;
+    padding-top: 15%;
+    background-color: rgba(33, 33, 33, 0.9);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 10%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 5%;
+}
+
+main>div#box5>div#prod>span {
+    position: absolute;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: rgb(250, 246, 0);
+}
+
+main>div#box5>div#prod>span#s1 {
+    top: 5%;
+    left: 20%;
+}
+
+main>div#box5>div#prod>span#s2 {
+    top: 5%;
+    left: 47%;
+}
+
+main>div#box5>div#prod>span#s3 {
+    top: 5%;
+    left: 72.25%;
+}
+
+main>div#box5>div#prod>span#s4 {
+    top: 53.5%;
+    left: 32.5%;
+}
+
+main>div#box5>div#prod>span#s5 {
+    top: 53.5%;
+    left: 57.5%;
+}
+
+main>div#box5>div#prod>button {
+    width: 20%;
+    padding: 1%;
+    background-color: #FFF;
+    color: #000;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2vw;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px #000;
+    position: absolute;
+    transition: 0.2s linear;
+}
+
+main>div#box5>div#prod>button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    box-shadow: none;
+}
+
+main>div#box5>div#prod>button#b1 {
+    left: 14.65%;
+    top: 36%;
+}
+
+main>div#box5>div#prod>button#b2 {
+    left: 40%;
+    top: 36%;
+}
+
+main>div#box5>div#prod>button#b3 {
+    left: 65.3%;
+    top: 36%;
+}
+
+main>div#box5>div#prod>button#b4 {
+    left: 27.3%;
+    top: 85%;
+}
+
+main>div#box5>div#prod>button#b5 {
+    left: 52.65%;
+    top: 85%;
+}
+
+
+main>div#box6 {
+    background-image: url(../img/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+    box-shadow: 1px 1px 10px #000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main>div#box6>div#title {
+    padding: 2%;
+    text-align: center;
+}
+
+main>div#box6>div#title>span {
+    font-family: 'Bangers', cursive;
+    font-size: 3vw;
+    color: #FFF;
+}
+
+main>div#box6>div#prod {
+    position: relative;
+    margin-top: 3%;
+    text-align: center;
+}
+
+main>div#box6>div#prod>img {
+    margin: 1.5%;
+    margin-bottom: 15%;
+    box-shadow: 1px 1px 10px #000;
+    padding-top: 15%;
+    background-color: rgba(33, 33, 33, 0.9);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 7%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 5%;
+}
+
+main>div#box6>div#prod>span {
+    position: absolute;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: rgb(250, 246, 0);
+}
+
+main>div#box6>div#prod>span#s1 {
+    top: 9%;
+    left: 12.5%;
+}
+
+main>div#box6>div#prod>span#s2 {
+    top: 9%;
+    left: 35%;
+}
+
+main>div#box6>div#prod>span#s3 {
+    top: 9%;
+    left: 54.75%;
+}
+
+main>div#box6>div#prod>span#s4 {
+    top: 9%;
+    left: 76.5%;
+}
+
+main>div#box6>div#prod>span#s5 {
+    top: 53.5%;
+    left: 57.5%;
+}
+
+main>div#box6>div#prod>button {
+    width: 17%;
+    padding: 1%;
+    background-color: #FFF;
+    color: #000;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2vw;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px #000;
+    position: absolute;
+    transition: 0.2s linear;
+}
+
+main>div#box6>div#prod>button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    box-shadow: none;
+}
+
+main>div#box6>div#prod>button#b1 {
+    left: 8%;
+    top: 68.5%;
+}
+
+main>div#box6>div#prod>button#b2 {
+    left: 30.35%;
+    top: 68.5%;
+}
+
+main>div#box6>div#prod>button#b3 {
+    left: 52.65%;
+    top: 68.5%;
+}
+
+main>div#box6>div#prod>button#b4 {
+    left: 75%;
+    top: 68.5%;
+}
+
+main>div#box6>div#prod>button#b5 {
+    left: 52.65%;
+    top: 85%;
+}
+
+footer {
+    width: 100%;
+    margin-top: 5%;
+}
+
+footer>div#img {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    box-shadow: 1px 1px 10px #000;
+}
+
+footer>div#img>img {
+    width: 100%;
+    bottom: 0;
+}
+
+footer>div#img>span {
+    position: absolute;
+    font-family: 'Bangers', cursive;
+    font-size: 2vw;
+    color: #FFF;
+    top: 45%;
+    left: 37%;
+}
